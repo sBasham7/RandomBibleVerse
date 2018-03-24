@@ -1,6 +1,8 @@
 {
   "name": "RandomBibleVerse",
-  "app_id": "",
+  "app_id": "5d57d4a3",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

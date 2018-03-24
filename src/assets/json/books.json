@@ -1,0 +1,265 @@
+[{
+"name": "Genesis",
+"bookNumber": "1",
+"length": "50"
+},{
+"name": "Exodus",
+"bookNumber": "2",
+"length": "40"
+},{
+"name": "Leviticus",
+"bookNumber": "3",
+"length": "27"
+},{
+"name": "Numbers",
+"bookNumber": "4",
+"length": "36"
+},{
+"name": "Deuteronomy",
+"bookNumber": "5",
+"length": "34"
+},{
+"name": "Joshua",
+"bookNumber": "6",
+"length": "24"
+},{
+"name": "Judges",
+"bookNumber": "7",
+"length": "21"
+},{
+"name": "Ruth",
+"bookNumber": "8",
+"length": "4"
+},{
+"name": "1 Samuel",
+"bookNumber": "9",
+"length": "31"
+},{
+"name": "2 Samuel",
+"bookNumber": "10",
+"length": "24"
+},{
+"name": "1 Kings",
+"bookNumber": "11",
+"length": "22"
+},{
+"name": "2 Kings",
+"bookNumber": "12",
+"length": "25"
+},{
+"name": "1 Chronicles",
+"bookNumber": "13",
+"length": "29"
+},{
+"name": "2 Chronicles",
+"bookNumber": "14",
+"length": "36"
+},{
+"name": "Ezra",
+"bookNumber": "15",
+"length": "10"
+},{
+"name": "Nehemiah",
+"bookNumber": "16",
+"length": "13"
+},{
+"name": "Esther",
+"bookNumber": "17",
+"length": "10"
+},{
+"name": "Job",
+"bookNumber": "18",
+"length": "42"
+},{
+"name": "Psalms",
+"bookNumber": "19",
+"length": "150"
+},{
+"name": "Proverbs",
+"bookNumber": "20",
+"length": "31"
+},{
+"name": "Ecclesiastes",
+"bookNumber": "21",
+"length": "12"
+},{
+"name": "Song of Songs",
+"bookNumber": "22",
+"length": "8"
+},{
+"name": "Isaiah",
+"bookNumber": "23",
+"length": "66"
+},{
+"name": "Jeremiah",
+"bookNumber": "24",
+"length": "52"
+},{
+"name": "Lamentations",
+"bookNumber": "25",
+"length": "5"
+},{
+"name": "Ezekiel",
+"bookNumber": "26",
+"length": "48"
+},{
+"name": "Daniel",
+"bookNumber": "27",
+"length": "12"
+},{
+"name": "Hosea",
+"bookNumber": "28",
+"length": "14"
+},{
+"name": "Joel",
+"bookNumber": "29",
+"length": "3"
+},{
+"name": "Amos",
+"bookNumber": "30",
+"length": "9"
+},{
+"name": "Obadiah",
+"bookNumber": "31",
+"length": "1"
+},{
+"name": "Jonah",
+"bookNumber": "32",
+"length": "4"
+},{
+"name": "Micah",
+"bookNumber": "33",
+"length": "7"
+},{
+"name": "Nahum",
+"bookNumber": "34",
+"length": "3"
+},{
+"name": "Habakkuk",
+"bookNumber": "35",
+"length": "3"
+},{
+"name": "Zephaniah",
+"bookNumber": "36",
+"length": "3"
+},{
+"name": "Haggai",
+"bookNumber": "37",
+"length": "2"
+},{
+"name": "Zechariah",
+"bookNumber": "38",
+"length": "14"
+},{
+"name": "Malachi",
+"bookNumber": "39",
+"length": "4"
+},{ 
+"name": "Matthew",
+"bookNumber": "40",
+"length": "28"
+},{
+"name": "Mark",
+"bookNumber": "41",
+"length": "16"
+},{
+"name": "Luke",
+"bookNumber": "42",
+"length": "24"
+},{
+"name": "John",
+"bookNumber": "43",
+"length": "21"
+},{
+"name": "Acts",
+"bookNumber": "44",
+"length": "28"
+},{
+"name": "Romans",
+"bookNumber": "45",
+"length": "16"
+},{
+"name": "1 Corinthians",
+"bookNumber": "46",
+"length": "16"
+},{
+"name": "2 Corinthians",
+"bookNumber": "47",
+"length": "13"
+},{
+"name": "Galatians",
+"bookNumber": "48",
+"length": "6"
+},{
+"name": "Ephesians",
+"bookNumber": "49",
+"length": "6"
+},{
+"name": "Philippians",
+"bookNumber": "50",
+"length": "4"
+},{
+"name": "Colossians",
+"bookNumber": "51",
+"length": "4"
+},{
+"name": "1 Thessalonians",
+"bookNumber": "52",
+"length": "5"
+},{
+"name": "2 Thessalonians",
+"bookNumber": "53",
+"length": "3"
+},{
+"name": "1 Timothy",
+"bookNumber": "54",
+"length": "6"
+},{
+"name": "2 Timothy",
+"bookNumber": "55",
+"length": "4"
+},{
+"name": "Titus",
+"bookNumber": "56",
+"length": "3"
+},{
+"name": "Philemon",
+"bookNumber": "57",
+"length": "1"
+},{
+"name": "Hebrews",
+"bookNumber": "58",
+"length": "13"
+},{
+"name": "James",
+"bookNumber": "59",
+"length": "5"
+},{
+"name": "1 Peter",
+"bookNumber": "60",
+"length": "5"
+},{
+"name": "2 Peter",
+"bookNumber": "61",
+"length": "3"
+},{
+"name": "1 John",
+"bookNumber": "62",
+"length": "5"
+},{
+"name": "2 John",
+"bookNumber": "63",
+"length": "1"
+},{
+"name": "3 John",
+"bookNumber": "64",
+"length": "1"
+},{
+"name": "Jude",
+"bookNumber": "65",
+"length": "1"
+},{
+"name": "Revelation",
+"bookNumber": "66",
+"length": "22"
+}]
