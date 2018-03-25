@@ -11,12 +11,12 @@ export class BibleService {
 
     constructor(public http: Http) {
 
-        this.verses = this.http.get('../assets/json/t_kjv.json')
+        this.verses = this.http.get('assets/json/t_kjv.json')
             .map(response => {
                 return <Verse[]>response.json();
             });
 
-        this.books = this.http.get('../assets/json/books.json')
+        this.books = this.http.get('assets/json/books.json')
             .map(response => {
                 return <Book[]>response.json();
             });

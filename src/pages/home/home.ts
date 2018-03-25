@@ -1,5 +1,5 @@
-import { Component, ElementRef } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Content, NavController } from 'ionic-angular';
 import * as $ from 'jquery';
 import { BibleService, Book, Verse } from '../../app/BibleService';
 
@@ -8,6 +8,7 @@ import { BibleService, Book, Verse } from '../../app/BibleService';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  @ViewChild(Content) content: Content;
 
   public selectedBook: Book;
   public selectedChapter: number;
@@ -26,7 +27,7 @@ export class HomePage {
         this.selectedBook = this.books[0];
         this.selectedChapter = 1;
 
-        this.chapters.slice(0);
+        this.chapters = [];
         
         for (let index = 1; index <= parseInt(this.selectedBook.length); index++) {
           this.chapters.push(index);
@@ -40,8 +41,8 @@ export class HomePage {
 
   onBookChange(){
     
-    this.chapters.slice(0);
-
+    this.chapters = [];
+    
     for (let index = 1; index <= parseInt(this.selectedBook.length); index++) {
       this.chapters.push(index);
     }
@@ -58,6 +59,11 @@ export class HomePage {
 
     this.bibleService.getChapter(parseInt(this.selectedBook.bookNumber), this.selectedChapter).subscribe(results => {
       this.verses = results;
+      this.content.scrollToTop();
+
+      //NOTE: odd bug as of this writing, the selected value appears to just append to the select-text element
+      $(this.elementRef.nativeElement).find('#chapterIonSelect').find('.select-text').html(this.selectedChapter);
+      
     });
 
   }

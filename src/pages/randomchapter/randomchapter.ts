@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { Content, IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BibleService, Book, BookImpl, Verse, VerseImpl } from '../../app/BibleService';
 
 /**
@@ -15,6 +15,7 @@ import { BibleService, Book, BookImpl, Verse, VerseImpl } from '../../app/BibleS
   templateUrl: 'randomchapter.html',
 })
 export class RandomchapterPage {
+  @ViewChild(Content) content: Content;
 
   public book: Book;
   public verses: Verse[];
@@ -40,6 +41,8 @@ export class RandomchapterPage {
           pageReference.book = bookResults.filter(function(entry) {
             return entry.bookNumber == pageReference.verses[0].field[1];
           })[0];
+
+          pageReference.content.scrollToTop();
         });
       });
     });
