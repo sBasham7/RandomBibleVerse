@@ -7,6 +7,7 @@ import { MyApp } from './app.component';
 import { BibleService } from './BibleService';
 import { HomePage } from '../pages/home/home';
 import { RandomchapterPage } from '../pages/randomchapter/randomchapter';
+import { DisclaimerPage } from '../pages/disclaimer/disclaimer';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -14,7 +15,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    RandomchapterPage
+    RandomchapterPage,
+    DisclaimerPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    RandomchapterPage
+    RandomchapterPage,
+    DisclaimerPage
   ],
   providers: [
     StatusBar,
